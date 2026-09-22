@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#studentList li {
+  background: white;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
