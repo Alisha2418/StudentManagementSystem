@@ -34,9 +34,11 @@ button:hover {
   background-color: #45a049;
 }
 
+#studentList {
+  list-style: none;
+  padding: 0;
+}
+
 #studentList li {
-  background: white;
-  padding: 8px;
-  margin: 5px 0;
-  border-radius: 4px;
+  border-left: 4px solid #4CAF50;
 }
